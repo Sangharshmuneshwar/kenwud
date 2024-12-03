@@ -6,8 +6,8 @@ import Logo from "../assets/logo/Logo.png";
 
 // Define an array of nav items
 const navItems = [
-  { path: "/", label: "Furniture" },
-  { path: "/shop", label: "Shop" },
+  { path: "/", label: "Home" },
+  { path: "/shop", label: "Products" },
   { path: "/about", label: "About Us" },
   { path: "/contact", label: "Contact Us" },
 ];

@@ -185,10 +185,10 @@ const Footer = () => {
         <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
           <p>&copy; {new Date().getFullYear()} KENWUD. All rights reserved.</p>
           <div className="flex space-x-4">
-            <Link to="/" className="hover:text-primary transition">
+            <Link to="/terms-conditions" className="hover:text-primary transition">
               Terms & Conditions
             </Link>
-            <Link to="/" className="hover:text-primary transition">
+            <Link to="/privacy-policy" className="hover:text-primary transition">
               Privacy Policy
             </Link>
           </div>

@@ -4,12 +4,14 @@ import Navbar from "./components/Navbar";
 import { Outlet } from "react-router-dom";
 import ScrollRoTop from "./ScrollToTop";
 import ScrollToTopButton from "./ScrollToTopButton"
+import WhatsAppIcon from "./WhatsAppIcon";
 const Layout = () => {
   return (
     <>
       <Navbar />
       <ScrollRoTop />
       <Outlet />
+      <WhatsAppIcon />
       <ScrollToTopButton />
       <Footer />
     </>

@@ -6,10 +6,12 @@ import { ThemeProvider } from './context/ThemeContext'
 import { CartProvider } from './context/CartContext'
 import Footer from './components/Footer'
 import Layout from './Layout'
+import { HelmetProvider } from "react-helmet-async";
 function App() {
 
 
   return (
+    <HelmetProvider>
     <ThemeProvider>
       <CartProvider>
         
@@ -19,6 +21,7 @@ function App() {
         
       </CartProvider>
     </ThemeProvider>
+    </HelmetProvider>
   )
 }
 
